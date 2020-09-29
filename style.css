@@ -100,15 +100,17 @@ h3 {
 
 #about {
   background: #20002c;
+  text-align: end;
 }
 
 #about-text {
   padding: 50px;
   width: 50%;
   position: relative;
-  left: 10%;
+  left: 39%;
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
+  text-align: justify;
 }
 
 #text-color {
