@@ -115,6 +115,17 @@ h3 {
   text-align: justify;
 }
 
+#contacts-text {
+  padding: 50px;
+  width: 50%;
+  position: relative;
+  left: 39%;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  top: -220px;
+}
+
 #text-color {
   color: #ff0080;
   font-size: 30px;
@@ -127,7 +138,9 @@ h3 {
 
 .contact-links {
   display: flex;
-
+  position: relative;
+  top: -130px;
+  left: 65%;
 }
 
 a {
