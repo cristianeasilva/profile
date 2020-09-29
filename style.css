@@ -74,7 +74,6 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(45deg, #20002c, #cbb4d4);
-
 }
 
 .intro-text {
@@ -103,6 +102,7 @@ h3 {
 #about {
   background: #20002c;
   text-align: end;
+  position: absolute;
 }
 
 #about-text {
