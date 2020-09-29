@@ -92,6 +92,12 @@ h1, h2 {
 h3 {
   font-style: italic;
 }
+
+.avatar-large {
+  width: 56px;
+  border-radius: 50%;
+}
+
 #about {
   background: #20002c;
 }
