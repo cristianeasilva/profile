@@ -94,8 +94,10 @@ h3 {
 }
 
 .avatar-large {
-  width: 56px;
-  border-radius: 50%;
+  width: 250px;
+  position: relative;
+  left: 60px;
+  top: -160px;
 }
 
 #about {
