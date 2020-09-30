@@ -97,10 +97,13 @@ h3 {
 }
 
 .avatar-large {
-  width: 250px;
-  position: relative;
-  left: 60px;
-  top: -160px;
+  height: 60vh;
+  width: 260px;
+  position: absolute;
+  left: 90px;
+  top: 100px;
+  object-fit: cover;
+
 }
 
 #about {
