@@ -85,9 +85,7 @@ body {
   font-size: 20px;
 }
 
-.link {
 
-}
 h1, h2 {
   font-weight: bold;
 }
@@ -103,7 +101,6 @@ h3 {
   left: 90px;
   top: 100px;
   object-fit: cover;
-
 }
 
 #about {
@@ -130,7 +127,7 @@ h3 {
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
-  top: -220px;
+  top: -100px;
 }
 
 #text-color {
@@ -140,7 +137,6 @@ h3 {
 
 ::selection {
   color: #ff0080;
-
 }
 
 .contact-links {
@@ -151,13 +147,7 @@ h3 {
 }
 
 a {
-  position: relative;
-  justify-content: left;
-  left: 13%;
-  padding: 20px 20px;
   color: #ff0080;
-  text-transform: uppercase;
-  letter-spacing: 4px;
   text-decoration: none;
   overflow: hidden;
   transition: 0.2s;
@@ -166,4 +156,15 @@ a {
 a:hover {
   color: #ffffff;
 }
+
+.contact-links a {
+  position: relative;
+  justify-content: left;
+  left: 13%;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+
 
