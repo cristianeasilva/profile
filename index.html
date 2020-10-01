@@ -10,6 +10,8 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
     </style>
+    <link rel="stylesheet" href="path/to/font-mfizz/font-mfizz.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   </head>
 
   <body>
@@ -18,8 +20,8 @@
         <img src="./img/lets-code.icon.png" alt="">
       </a>
       <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Skills</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contacts</a></li>
       </ul>
@@ -35,19 +37,56 @@
         </header>
       </div>
 
-
-      <section id="about">
-        <div id="about-text">
+      <div class="container">
+        <section id="about">
           <h2 id="text-color">About me</h2>
-          <p>Tourism & Hospitality background. For the last couple of years, I´ve been working with financial and international healthcare support. Now, motivated to change my career as a developer.</p>
-          <p>Technology has always been a passion, and every day of learning I feel more willing to learn more from this universe.</p>
-          <p>I just fineshed a Bootcamp Programing with <a href="https://www.lewagon.com/" target="_blank">Le Wagon</a></p>
-          <p>I’m currently working on create a nice portfolio to find my first real job as a developer.</p>
-        </div>
+          <div class="img">
+            <img src="img/profile.jpg" alt="">
+          </div>
+          <div id="about-text">
+            <p>Tourism & Hospitality background. For the last couple of years, I´ve been working with financial and international healthcare support. Now, motivated to change my career as a developer.</p>
+            <p>Technology has always been a passion, and every day of learning I feel more willing to learn more from this universe.</p>
+            <p>I just fineshed a Bootcamp Programing with <a href="https://www.lewagon.com/" target="_blank">Le Wagon</a></p>
+            <p>I’m currently working on create a nice portfolio to find my first real job as a developer.</p>
+          </div>
+        </section>
+        <section id="skills">
+          <h2>Skills</h2>
+          <div>
+            <i class="fab fa-html5"></i>
+            <p>HTML5</p>
+          </div>
+          <div>
+            <i class="fab fa-css3"></i>
+            <p>CSS</p>
+          </div>
+          <div>
+            <i class="fab fa-js"></i>
+            <p>JavaScript</p>
+          </div>
+          <div>
+            <i class="fas fa-gem"></i>
+            <p>Ruby</p>
+          </div>
+          <div>
+            <i class="icon-ruby-on-rails-alt"></i>
+            <p>Ruby on Rails</p>
+          </div>
+          <div>
+            <i class="fas fa-database"></i>
+            <p>SQL</p>
+          </div>
+          <div>
+            <i class="fab fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </div>
+          <div>
+            <i class="icon-jquery"></i>
+            <p>JQuery</p>
+          </div>
+        </section>
+      </div>
 
-        <div class="img" align="right">
-          <img class="avatar-large" alt="avatar-large" src="https://kitt.lewagon.com/placeholder/users/cristianeasilva" />
-        </div>
 
         <div id="contacts-text">
             <h2 id="text-color">Contact</h2>
@@ -66,7 +105,7 @@
             </a>
           </div>
 
-    </section>
+
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
 

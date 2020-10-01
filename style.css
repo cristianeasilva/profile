@@ -58,9 +58,14 @@ canvas{
   vertical-align:bottom;
 }
 
+.container {
+  width: 100%;
+  background: #20002c;
+}
+
 /* ---- cabeçalho ---- */
+
 .logo img {
-  border-radius: 50%;
   width: 50%;
 }
 
@@ -95,8 +100,55 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* ---- Helveticaeader ---- */
+/* ---- About Me ---- */
 
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  background: #20002c;
+  color: #ffffff;
+}
+
+#about h2 {
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+/* texto estava grudando do lado direito
+#about div {
+  flex-grow: 1;
+  flex-basis: 300px;
+  padding: 0 10px;
+}*/
+
+.img img {
+  width: 60%;
+}
+
+.img {
+  float: left;
+  width: 50;
+}
+
+#about-text {
+  float: right;
+  width: 50%;
+
+}
+
+
+
+/*#about-text {
+  padding: 50px;
+  width: 50%;
+  position: relative;
+  left: 39%;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}*/
 
 @media screen and (min-width: 768px) {
 
@@ -111,6 +163,29 @@ nav ul {
   flex-direction: row;
   width: 70%;
 }
+
+header {
+  height: 60vh;
+  justify-content: center;
+}
+
+/* ---- about ---- */
+
+#about {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+#about h2 {
+  text-align: center;
+  width: 100%;
+}
+
+
 
 }
 
@@ -132,9 +207,9 @@ body {
 }
 
 #particleWrapper {
-    position: relative;
-    width: 100vw; /* puedes cambiar este valor por lo que desea en px */
-    height: 100vh; /* puedes cambiar este valor por lo que desea en px */
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 .particle-title {
@@ -163,7 +238,7 @@ body {
   font-size: 1.7em;
 }
 
-h1, h2 {
+h1 {
   font-weight: bold;
 }
 
@@ -171,7 +246,7 @@ h3 {
   font-style: italic;
 }
 
-.avatar-large {
+/*.avatar-large {
   height: 60vh;
   width: 260px;
   position: absolute;
@@ -179,29 +254,13 @@ h3 {
   top: 100px;
   object-fit: cover;
 
-}
-
-.img {
-  max-width:100%;
+}*/
 
 
-}
 
-#about {
-  background: #20002c;
-  text-align: end;
-  position: absolute;
-}
 
-#about-text {
-  padding: 50px;
-  width: 50%;
-  position: relative;
-  left: 39%;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: justify;
-}
+
+
 
 #contacts-text {
   padding: 50px;
