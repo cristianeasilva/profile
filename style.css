@@ -62,7 +62,6 @@ canvas{
 .logo img {
   border-radius: 50%;
   width: 50%;
-
 }
 
 nav {
@@ -95,6 +94,9 @@ nav ul li a {
   width: 100%;
   text-decoration: none;
 }
+
+/* ---- Helveticaeader ---- */
+
 
 @media screen and (min-width: 768px) {
 
@@ -129,19 +131,37 @@ body {
   color: #ffffff;
 }
 
+#particleWrapper {
+    position: relative;
+    width: 100vw; /* puedes cambiar este valor por lo que desea en px */
+    height: 100vh; /* puedes cambiar este valor por lo que desea en px */
+}
+
+.particle-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #particles-js{
   width: 100%;
   height: 100%;
   background: linear-gradient(45deg, #20002c, #cbb4d4);
 }
 
-.intro-text {
-  position: absolute;
-  top: 35%;
-  left: 15%;
-  font-size: 20px;
-}
 
+.particle-title h1 {
+  margin-bottom: 2em;
+  font-size: 1.7em;
+}
 
 h1, h2 {
   font-weight: bold;
