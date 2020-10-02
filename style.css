@@ -65,6 +65,11 @@ canvas{
 
 /* ---- cabeçalho ---- */
 
+.icon-rails:before {
+  content: "\e900";
+  color: #ffffff;
+}
+
 .logo img {
   width: 50%;
 }
