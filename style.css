@@ -60,18 +60,13 @@ canvas{
 
 .container {
   width: 100%;
-  background: #20002c;
+  background: #ffffff;
 }
 
 /* ---- cabeçalho ---- */
 
-.icon-rails:before {
-  content: "\e900";
-  color: #ffffff;
-}
-
 .logo img {
-  width: 50%;
+  width: 100%;
 }
 
 nav {
@@ -79,7 +74,6 @@ nav {
   flex-direction: column;
   align-items: center;
   background-color: #20002c;
-  padding: 30px;
 }
 
 nav ul {
@@ -93,7 +87,7 @@ nav ul {
 
 nav ul li {
   text-align: center;
-  width: 100%
+  width: 100%;
   font-size: 1.5em;
   padding: 2%;
 }
@@ -103,6 +97,20 @@ nav ul li a {
   padding: 10px 0;
   width: 100%;
   text-decoration: none;
+}
+
+.btn {
+  color: #20002c;
+  border: 1px solid #ffffff;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 1;
 }
 
 /* ---- About Me ---- */
@@ -128,13 +136,13 @@ nav ul li a {
   padding: 0 10px;
 }*/
 
-.img img {
+.img-profile img {
   width: 60%;
 }
 
-.img {
+.img-profile {
   float: left;
-  width: 50;
+  width: 50px;
 }
 
 #about-text {
@@ -142,6 +150,42 @@ nav ul li a {
   width: 50%;
 
 }
+
+/* ---- Skills ---- */
+
+#skills {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+#skills div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#skills p {
+  line-height: 1.5;
+  margin: 2vh;
+  font-size: 1,2em;
+}
+
+#skills img {
+  margin: 10px 0;
+  width: 60px;
+}
+
+#skills h2 {
+  font-size: 2em;
+}
+
 
 
 
@@ -190,7 +234,32 @@ header {
   width: 100%;
 }
 
+#about div {
+  flex-grow: 1;
+  flex-basis: 270px;
+  padding: 0 50px;
+}
 
+/* ---- Skills ---- */
+
+#skills {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#skills h2 {
+  text-align: center;
+  width: 100%;
+}
+
+#skills div {
+  flex-grow: 1;
+  flex-basis: 150px;
+  padding: 0 10px;
+}
 
 }
 
@@ -208,7 +277,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100vh;
-  color: #ffffff;
+  color: #20002c;
 }
 
 #particleWrapper {
@@ -250,21 +319,6 @@ h1 {
 h3 {
   font-style: italic;
 }
-
-/*.avatar-large {
-  height: 60vh;
-  width: 260px;
-  position: absolute;
-  left: 90px;
-  top: 100px;
-  object-fit: cover;
-
-}*/
-
-
-
-
-
 
 
 #contacts-text {
