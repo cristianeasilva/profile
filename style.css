@@ -153,6 +153,7 @@ nav ul li a {
 
 /* ---- Skills ---- */
 
+
 #skills {
   padding: 20px;
   display: flex;
@@ -160,7 +161,6 @@ nav ul li a {
   align-items: center;
   position: relative;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 #skills div {
@@ -185,9 +185,6 @@ nav ul li a {
 #skills h2 {
   font-size: 2em;
 }
-
-
-
 
 /*#about-text {
   padding: 50px;
