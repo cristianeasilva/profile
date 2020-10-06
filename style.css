@@ -368,6 +368,80 @@ ul#img-skills li#github:hover {
   font-size: 2em;
 }
 
+/* ---- contacts ---- */
+
+
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #cbb4d4;
+  width: 100%;
+}
+
+#contacts h2 {
+  margin-left: 20px;
+  margin-width: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #ff0080;
+  text-align: center;
+}
+#contacts-text p {
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: #20002c;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-links {
+  display: flex;
+  position: relative;
+
+}
+
+a {
+  color: #ff0080;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.contact-links a {
+  position: relative;
+  justify-content: left;
+  left: 13%;
+  padding: 20px 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+
+#text-color {
+  color: #ff0080;
+  font-size: 30px;
+}
+
+::selection {
+  color: #ff0080;
+}
+
+
+
 @media screen and (min-width: 768px) {
 
 /* ---- barra de navegaçao ---- */
@@ -459,6 +533,19 @@ header {
   padding: 0 10px;
 }
 
+/* ---- contacts ---- */
+
+.contacts {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 40vh;
+  width: 100%;
+}
+
 }
 
 /* ---- particles.js container ---- */
@@ -519,52 +606,6 @@ h3 {
 }
 
 
-#contacts-text {
-  padding: 50px;
-  width: 50%;
-  position: relative;
-  left: 39%;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: justify;
-  top: -100px;
-}
-
-#text-color {
-  color: #ff0080;
-  font-size: 30px;
-}
-
-::selection {
-  color: #ff0080;
-}
-
-.contact-links {
-  display: flex;
-  position: relative;
-  top: -130px;
-  left: 65%;
-}
-
-a {
-  color: #ff0080;
-  text-decoration: none;
-  overflow: hidden;
-  transition: 0.2s;
-}
-
-a:hover {
-  color: #ffffff;
-}
-
-.contact-links a {
-  position: relative;
-  justify-content: left;
-  left: 13%;
-  padding: 20px 20px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
 
 
 
