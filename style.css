@@ -129,13 +129,6 @@ nav ul li a {
   font-size: 2em;
 }
 
-/* texto estava grudando do lado direito
-#about div {
-  flex-grow: 1;
-  flex-basis: 300px;
-  padding: 0 10px;
-}*/
-
 .img-profile img {
   width: 60%;
 }
@@ -152,9 +145,160 @@ nav ul li a {
 }
 
 /* ---- Skills ---- */
-
-
 #skills {
+  padding: 20px;
+
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+#img-skills {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+#skill h2 {
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+ul#img-skills {
+  width: 520px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+
+ul#img-skills li {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.4)
+}
+
+ul#img-skills li span {
+  opacity: 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  background-color: rgba(0,0,0,.3);
+  font-size: 7pt;
+  line-height: 170px;
+  padding: 5px;
+}
+
+ul#img-skills li:hover {
+  transform: scale(1.5);
+  transition: all 0.4s ease-in;
+}
+
+ul#img-skills li:hover span {
+  opacity: 1;
+}
+
+ul#img-skills li#sublime {
+  background: url('img/sublime.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#sublime:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+
+ul#img-skills li#sql {
+  background: url('img/sql.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#sql:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+
+ul#img-skills li#ruby {
+  background: url('img/ruby.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#ruby:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+
+ul#img-skills li#js {
+  background: url('img/js.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#js:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+
+ul#img-skills li#html {
+  background: url('img/html5.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#html:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+
+ul#img-skills li#css {
+  background: url('img/css3.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#css:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+
+ul#img-skills li#rails {
+  background: url('img/ruby-on-rails.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#rails:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+
+ul#img-skills li#github {
+  background: url('img/Octocat.png') no-repeat;
+  background-position: 50% 50%:
+  background-size: 200px 200px;
+  background-color: #ffffff;
+}
+
+ul#img-skills li#github:hover {
+  background-position: 0px 0px;
+  background-size: 100px 100px;
+}
+/*#skills {
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -184,17 +328,45 @@ nav ul li a {
 
 #skills h2 {
   font-size: 2em;
+
 }
 
-/*#about-text {
-  padding: 50px;
-  width: 50%;
-  position: relative;
-  left: 39%;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  text-align: justify;
+#skills img:hover {
+  -ms-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+
 }*/
+/* ---- project ---- */
+
+#projects {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+#projects div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#projects img {
+  margin: 10px 0;
+  background-color: lightgray;
+  box-shadow: 3px 3px 3px 0px;
+}
+
+#projects h2 {
+  font-size: 2em;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -239,7 +411,19 @@ header {
 
 /* ---- Skills ---- */
 
-#skills {
+
+
+#skills h2 {
+  text-align: center;
+  width: 100%;
+}
+
+/*#img-skills div {
+  display: flex;
+}*/
+
+#img-skills {
+
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -247,12 +431,29 @@ header {
   margin: 0 auto;
 }
 
-#skills h2 {
+#img-skills {
+  flex-grow: 1;
+  flex-basis: 150px;
+  padding: 0 10px;
+}
+
+
+/* ---- projects ---- */
+
+#projects {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#projects h2 {
   text-align: center;
   width: 100%;
 }
 
-#skills div {
+#projects div {
   flex-grow: 1;
   flex-basis: 150px;
   padding: 0 10px;
