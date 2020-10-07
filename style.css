@@ -316,7 +316,7 @@ ul#img-skills li#github:hover {
 #contacts {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   text-align: center;
   background-color: #cbb4d4;
   width: 100%;
@@ -333,7 +333,7 @@ ul#img-skills li#github:hover {
 #contacts-text p {
   font-size: 1.2em;
   font-family: 'Montserrat', sans-serif;
-  text-align: justify;
+  text-align: center;
 }
 
 footer {
