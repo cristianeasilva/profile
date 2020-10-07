@@ -261,47 +261,27 @@ ul#img-skills li#github:hover {
   background-position: 0px 0px;
   background-size: 100px 100px;
 }
-/*#skills {
-  padding: 20px;
+#skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  margin: 0 auto;
-}
-
-#skills div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top: 30px;
-}
-
-#skills p {
-  line-height: 1.5;
-  margin: 2vh;
-  font-size: 1,2em;
-}
-
-#skills img {
-  margin: 10px 0;
-  width: 60px;
+  padding-top: 20px;
 }
 
 #skills h2 {
   font-size: 2em;
-
 }
 
-#skills img:hover {
-  -ms-transform: rotate(20deg);
-  -webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
-  transform: rotate(20deg);
+#skills img {
+  margin: 0;
+  width: 100px;
+}
 
-}*/
+#skills .resp {
+  width: 77%;
+  align-items: center;
+}
+
 /* ---- project ---- */
 
 #projects {
@@ -332,8 +312,6 @@ ul#img-skills li#github:hover {
 }
 
 /* ---- contacts ---- */
-
-
 
 #contacts {
   display: flex;
@@ -449,30 +427,17 @@ header {
 /* ---- Skills ---- */
 
 
+#skills {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 #skills h2 {
   text-align: center;
   width: 100%;
 }
 
-/*#img-skills div {
-  display: flex;
-}*/
 
-#img-skills {
-
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-#img-skills {
-  flex-grow: 1;
-  flex-basis: 150px;
-  padding: 0 10px;
-}
 
 
 /* ---- projects ---- */
