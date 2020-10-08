@@ -216,7 +216,7 @@ ul#img-skills li#js:hover {
 
 ul#img-skills li#html {
   background: url('img/html.png') no-repeat;
-  background-position: 50% 50%:
+  background-position: 50% 50%;
   background-size: 200px 200px;
   background-color: #ffffff;
 }
@@ -228,7 +228,7 @@ ul#img-skills li#html:hover {
 
 ul#img-skills li#css {
   background: url('img/css3.png') no-repeat;
-  background-position: 50% 50%:
+  background-position: 50% 50%;
   background-size: 200px 200px;
   background-color: #ffffff;
 }
